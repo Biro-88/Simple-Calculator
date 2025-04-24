@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.main-container{
+    background-color: rgb(127, 136, 139);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border: solid 1px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+
+#result{
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3) inset;
+    border: none;
+    border-radius: 5px;
+    background-color: #acd0e7;
+}
+.button{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(4,1fr);
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    
+}
+
+
+
+.clear,.delete{
+    background-color: rgb(233, 66, 66);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    font-family: 30px;
+    transition: 0.2s ease;
+}
+
+
+.clear:hover,.delete:hover{
+    background-color:rgb(109, 48, 48); 
+}
+
+
+.operator{
+    background-color: rgb(16, 18, 156);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    font-family: 30%;
+    transition: 0.2s ease;
+}
+.operator:hover{
+    background-color:rgb(9, 13, 243);
+}
+
+.number,.decimal{
+    background-color: lightgrey;
+    color:black;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    font-family: 30;
+    transition: 0.2s ease;
+}
+
+
+.number:hover,.decimal:hover{
+    background-color:rgb(250, 249, 249);
+}
+
+
+
+.equal{
+    background-color: green;
+    color:rgb(245, 237, 237);
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    font-family: 30%;
+    grid-row: span 3;
+    transition: 0.2s ease;
+}
+
+
+.equal:hover{
+    background-color:rgb(4, 204, 4) ;
+}
+
